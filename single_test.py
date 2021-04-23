@@ -18,7 +18,7 @@ class FirstSampleTest(unittest.TestCase):
             "version": 'latest' # Change your browser version here
         }
         self.driver = webdriver.Remote(
-           command_executor="https://{}:{}@hub.lambdatest.com/wd/hub".format(username, access_key),
+           command_executor="https://{}:{}@stage-hub.lambdatest.com/wd/hub".format(username, access_key),
            desired_capabilities= desired_caps)
 
 
